@@ -1,0 +1,86 @@
+.post-wrapper{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 30px;
+    max-width: 880px;
+    margin: 20px auto auto auto;
+}
+.general_info{
+    display: flex;
+    align-items: center;
+}
+.name_nickname{
+    display: flex;
+    margin-left: 15px;
+    column-gap: 10px;
+    align-items: center;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.verifiedPng{
+    color: rgb(53, 201, 242);
+}
+
+.post{
+    margin-left: 56px;
+}
+.name{
+    font-weight: 700;
+}
+.nickname{
+    font-size: 14px;
+}
+.currentDate{
+    font-size: 14px;
+}
+
+
+.text{
+    font-size: 18px;
+}
+.content-photo{
+    margin-top: 10px;
+}
+.post-pict{
+    max-width: 860px;
+    height: 330px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.statistic{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    transition: all 0.2s;
+}
+.amountOflikes{
+    font-size: 20px;
+}
+.pointer{
+    cursor: pointer;
+}
+.clicked{
+    color: red;
+}
+.clickedGreen{
+    color: green;
+}
+.clickedBlye{
+    color:aqua;
+}
+.hoverRed{
+    background-color: rgb(255, 0, 0, 0.2);
+    
+}
